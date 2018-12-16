@@ -579,6 +579,7 @@
   
   $.scPlayer.stopAll = function() {
     $('a.sc-paul').click();
+    console.log('hi');
   };
 
   // destroy all the players and audio engine, usefull when reloading part of the page and audio has to stop
